@@ -5,8 +5,8 @@ def key_for_min_value(name_hash)
     nil
   else name_hash.each do |key, value|
       value = Float::INFINITY
-      key > value
-        value
+      if key > value
+        key
   end
   end
   end
