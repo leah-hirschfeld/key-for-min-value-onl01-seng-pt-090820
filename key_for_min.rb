@@ -2,7 +2,7 @@
 
 def key_for_min_value(name_hash)
   small_num = Float::INFINITY
-  small_num_key = []
+  small_num_key = ""
   if name_hash == {}
     return nil
   else name_hash.each do |key, value|
